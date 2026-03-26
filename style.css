@@ -1,0 +1,62 @@
+
+
+#visor{
+    background-color: black;
+    width: 179px;
+    height: 40px;
+    color: white;
+    font-size: medium;
+}
+#titulo{
+    color: white;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    transition: all 0.1s ease;
+}
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.btn:hover{
+    background-color: gray;
+}
+.btnOp:hover{
+    background-color: rgb(126, 47, 18);
+}
+.btnOp{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: orangered;
+    transition: all 0.1s ease;
+}
+.btnOp:active{
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.btnI{
+    width: 190px;
+    height: 60px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: orangered;
+    transition: all 0.1s ease;
+}
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkslategray;
+
+}
